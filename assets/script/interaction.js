@@ -16,31 +16,31 @@ var clickable = {
 	
     ready: function() {
     	$('#unique').click(function(e) {  
-     		window.location.href="../pages/index.html";
+     		window.location.href="http://frankgym.altervista.org/pages/index.html";
     	});
         $('#aboutUs').click(function(e) {  
-     		window.location.href="../pages/aboutUs.html";
+     		window.location.href="http://frankgym.altervista.org/pages/aboutUs.html";
     	});
         $('#instructor').click(function(e) {  
-     		window.location.href="../pages/instructors.html";
+     		window.location.href="http://frankgym.altervista.org/pages/instructors.html";
     	});
         $('#rooms').click(function(e) {  
-     		window.location.href="../pages/rooms.html";
+     		window.location.href="http://frankgym.altervista.org/pages/rooms.html";
     	});
         $('#courses').click(function(e) {  
-     		window.location.href="../pages/courses.html";
+     		window.location.href="http://frankgym.altervista.org./pages/courses.html";
     	});
         $('#courseCategory').click(function(e) {  
-     		window.location.href="../pages/courseCategory.html";
+     		window.location.href="http://frankgym.altervista.org/pages/courseCategory.html";
     	});
         $('#overallSchedule').click(function(e) {  
-     		window.location.href="../pages/overallSchedule.html";
+     		window.location.href="http://frankgym.altervista.org/pages/overallSchedule.html";
     	});
         $('#feesAndReg').click(function(e) {  
-     		window.location.href="../pages/feesAndReg.html";
+     		window.location.href="http://frankgym.altervista.org/pages/feesAndReg.html";
     	});
         $('#contact').click(function(e) {  
-     		window.location.href="../pages/location.html";
+     		window.location.href="http://frankgym.altervista.org/pages/location.html";
    		});
     } 
 }
