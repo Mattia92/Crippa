@@ -8,7 +8,7 @@ function evan(){
         method: "POST",
         //dataType: "json", //type of data
         crossDomain: true, //localhost purposes
-        url: "../php/getInstructor.php", //Relative or absolute path to file.php file
+        url: "http://frankgym.altervista.org/php/getInstructor.php", //Relative or absolute path to file.php file
         data: {instructor:id},
         success: function(response) {
             var instructor=JSON.parse(response);
@@ -42,7 +42,7 @@ function asder(){
         method: "POST",
         //dataType: "json", //type of data
         crossDomain: true, //localhost purposes
-        url: "../php/getTeach.php", //Relative or absolute path to file.php file
+        url: "http://frankgym.altervista.org/php/getTeach.php", //Relative or absolute path to file.php file
         data: {instructor:id},
         success: function(response) {
         console.log("VAI");

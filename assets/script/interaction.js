@@ -16,31 +16,31 @@ var clickable = {
 	
     ready: function() {
     	$('#unique').click(function(e) {  
-     		window.location.href="index.html";
+     		window.location.href="../pages/index.html";
     	});
         $('#aboutUs').click(function(e) {  
-     		window.location.href="aboutUs.html";
+     		window.location.href="../pages/aboutUs.html";
     	});
         $('#instructor').click(function(e) {  
-     		window.location.href="instructors.html";
+     		window.location.href="../pages/instructors.html";
     	});
         $('#rooms').click(function(e) {  
-     		window.location.href="rooms.html";
+     		window.location.href="../pages/rooms.html";
     	});
         $('#courses').click(function(e) {  
-     		window.location.href="courses.html";
+     		window.location.href="../pages/courses.html";
     	});
         $('#courseCategory').click(function(e) {  
-     		window.location.href="courseCategory.html";
+     		window.location.href="../pages/courseCategory.html";
     	});
         $('#overallSchedule').click(function(e) {  
-     		window.location.href="overallSchedule.html";
+     		window.location.href="../pages/overallSchedule.html";
     	});
         $('#feesAndReg').click(function(e) {  
-     		window.location.href="feesAndReg.html";
+     		window.location.href="../pages/feesAndReg.html";
     	});
         $('#contact').click(function(e) {  
-     		window.location.href="location.html";
+     		window.location.href="../pages/location.html";
    		});
     } 
 }

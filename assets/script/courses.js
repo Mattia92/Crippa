@@ -49,7 +49,7 @@ function ready(){
         method: "POST",
         //dataType: "json", //type of data
         crossDomain: true, //localhost purposes
-        url: "../php/getCoursesAlpha.php", //Relative or absolute path to file.php file
+        url: "http://frankgym.altervista.org/php/getCoursesAlpha.php", //Relative or absolute path to file.php file
         data: {course:id},
         success: function(response) {
             var courses=JSON.parse(response);
@@ -100,7 +100,7 @@ function ready2(){
         method: "POST",
         //dataType: "json", //type of data
         crossDomain: true, //localhost purposes
-        url: "../php/getCoursesAlpha.php", //Relative or absolute path to file.php file
+        url: "http://frankgym.altervista.org/php/getCoursesAlpha.php", //Relative or absolute path to file.php file
         data: {course:id},
         success: function(response) {
             var courses=JSON.parse(response);

@@ -16,7 +16,7 @@ else {
     //echo "Successful connection"; // connection ok
 
     # extract results mysqli_result::fetch_array
-    $query = " SELECT * FROM CourseCategories ORDER BY id ASC   ";
+    $query = " SELECT * FROM CourseCategories ORDER BY id ASC ";
     //query execution
     $result = $mysqli->query($query);
     //if there are data available

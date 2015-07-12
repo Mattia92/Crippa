@@ -226,7 +226,7 @@ section {
   position: relative;
   display: block;
   background-color: white;
-  width: 940px;
+  width: 100%;
   margin: 0 auto 0 auto;
   top: 70px;
   padding-top: 70px;
@@ -433,7 +433,9 @@ footer #container img {
 
   /*<---THETEAM--->*/
   #theteam {
-    height: 883px; }
+    height: 883px; 
+    width: 100%;
+}
 
   #theteam ul {
     height: 570px;

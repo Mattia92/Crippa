@@ -3,19 +3,19 @@
 	<head>
 		<title>LOCATION</title>
 		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0 , user-scalable=no"/>
-		<link type="text/css" rel="stylesheet" href="/assets/styles/location.css">
+		<link type="text/css" rel="stylesheet" href="../assets/styles/location.css">
         <script src="http://maps.googleapis.com/maps/api/js"></script>
 		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway:100|Raleway:200|Raleway:300|Raleway:400|Raleway:500|Raleway:600|Open+Sans:400|Open+Sans:300|Open+Sans:500|Open+Sans:600|Open+Sans:700|Open+Sans:800|Indie Flower:400">
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script src="/assets/script/location.js"></script>
-		<script src="/assets/script/interaction.js"></script>
+        <script src="../assets/script/location.js"></script>
+		<script src="../assets/script/interaction.js"></script>
 		<meta charset="utf-8">
 	</head>
 <body>
 	<nav>
 		<div id="selectBar">
-			<img src="/assets/images/frank.png" id="unique">
+			<img src="../assets/images/frank.png" id="unique">
 			<a id="menu"><i class="fa fa-align-justify"></i></a>
            
 			<ul id="navBar">
@@ -36,7 +36,7 @@
 		<div class="line"></div>
 		<div id="sender">
 			<label>Your Name*</label>
-			<input></input>
+            <input></input>
 			<label>Email Address*</label>
 			<input></input>
 			<label>Subject</label>
@@ -47,13 +47,14 @@
 		</div>
 		<div id="address">
 			<h1>FRANK GYM</h1>
-			<p>
-				<span>Phone</span>555 - 0123<br>
-				<span>Fax</span>+1 046 244 39 15<br>
-				<span>Email</span>frank@gyms.com<br>
-				<span>Address</span>Road Thornton Fwy, 50<br>
-					18904 Texas<br>
-			</p>
+            <p><span>Phone :</span></p>
+            <p id="phone"></p>
+			<p><span>Fax :</span></p>
+            <p id="fax"></p>
+			<p><span>Email :</span></p>
+            <p id="email"></p>
+			<p><span>Address :</span></p>
+            <p id="addr"></p>
 		</div>
 	</section>
     <div id="au" class="sfondo"></div>
@@ -65,7 +66,7 @@
     <div id="au" class="sfondo"></div>
 	<footer>
 		<div id="container">
-			<img src="/assets/images/limewire.png">
+			<img src="../assets/images/limewire.png">
 			<p>
 				Frank Gym|The best american gym
 			</p>
